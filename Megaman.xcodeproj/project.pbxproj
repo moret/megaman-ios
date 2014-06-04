@@ -17,6 +17,7 @@
 		1272832E193E492E008DD12B /* MegamanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1272832D193E492E008DD12B /* MegamanTests.swift */; };
 		12728338193E495D008DD12B /* megaman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 12728337193E495D008DD12B /* megaman.atlas */; };
 		1272833A193E49CC008DD12B /* MegamanNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12728339193E49CC008DD12B /* MegamanNode.swift */; };
+		BA6CE402193FCDFC00721BCE /* Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CE401193FCDFC00721BCE /* Left.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1272832D193E492E008DD12B /* MegamanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegamanTests.swift; sourceTree = "<group>"; };
 		12728337193E495D008DD12B /* megaman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = megaman.atlas; sourceTree = "<group>"; };
 		12728339193E49CC008DD12B /* MegamanNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MegamanNode.swift; sourceTree = "<group>"; };
+		BA6CE401193FCDFC00721BCE /* Left.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Left.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				12728316193E492E008DD12B /* AppDelegate.swift */,
 				1272831A193E492E008DD12B /* GameScene.swift */,
 				1272831C193E492E008DD12B /* GameViewController.swift */,
+				BA6CE401193FCDFC00721BCE /* Left.swift */,
 				12728339193E49CC008DD12B /* MegamanNode.swift */,
 				124CE5D5193F5CA800D7277A /* SKNodeExtensions.swift */,
 				12728321193E492E008DD12B /* Images.xcassets */,
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6CE402193FCDFC00721BCE /* Left.swift in Sources */,
 				1272833A193E49CC008DD12B /* MegamanNode.swift in Sources */,
 				124CE5D6193F5CA800D7277A /* SKNodeExtensions.swift in Sources */,
 				1272831B193E492E008DD12B /* GameScene.swift in Sources */,
